@@ -21,4 +21,5 @@ jobs:
         goarch: ${{ matrix.goarch }}
         project_path: "./"
         binary_name: "gotunnel"
+        pre_command: "go get github.com/xjdrew/gotunnel"
         extra_files: LICENSE README.md
